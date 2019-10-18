@@ -1,6 +1,6 @@
 # product-info
 
-Hello World sample shows how to deploy SpringBoot RESTful web service application with Docker
+Product information shows how to deploy SpringBoot RESTful web service application with Docker with real like ecommerce product information bussiness logic
 
 Prerequisite
 Installed: Docker, Java 1.8, Maven 3.x
@@ -19,7 +19,9 @@ Note:if you run this command for first time it will take some time in order to d
 
 Run Docker image
 $ docker run -p 9081:9081 -it --rm product-info
+
 Test application
+
 first you need to find ContainerId of the running Docker image
 
 $ docker ps
